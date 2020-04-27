@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="8">
+
+  <testsuite name="united"
+    errors="0" failures="0" hostname="" id="" package="united" skipped="0"
+    tests="8" time="21.80" timestamp="">
+  
+    <testcase name="Open united.com webpage" classname="united" time="3.656" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="choose one-way option" classname="united" time="0.2270" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="fill origin field" classname="united" time="1.514" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="fill destination field" classname="united" time="1.230" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="fill departing date" classname="united" time="0.8990" assertions="0">
+    </testcase>
+  
+    <testcase name="choose cabin type" classname="united" time="0.2300" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="search flight" classname="united" time="4.816" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="sort by Economy (Most Restricted)" classname="united" time="9.230" assertions="0">
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

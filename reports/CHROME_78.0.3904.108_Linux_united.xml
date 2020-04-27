@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="united"
+    errors="0" failures="1" hostname="" id="" package="united" skipped="8"
+    tests="1" time="65.12" timestamp="">
+  
+    <testcase name="Open united.com webpage" classname="united" time="65.12" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(5096ms)[0m">    at Object.Open united.com webpage (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/tests/united.js:19:8)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+    
+      <failure message="    at Object.Open united.com webpage (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/tests/united.js:19:8)">    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="choose one-way option" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="fill origin field" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="fill destination field" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="fill departing date" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="choose cabin type" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="search flight" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="sort by Economy (Most Restricted)" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Collect Depart, Arrive, Stops, Duration, Price" classname="united">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

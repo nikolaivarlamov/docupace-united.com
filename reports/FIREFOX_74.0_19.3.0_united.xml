@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="7">
+
+  <testsuite name="united"
+    errors="0" failures="1" hostname="" id="" package="united" skipped="2"
+    tests="7" time="18.86" timestamp="">
+  
+    <testcase name="Open united.com webpage" classname="united" time="5.317" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="choose one-way option" classname="united" time="0.3960" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="fill origin field" classname="united" time="1.928" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="fill destination field" classname="united" time="3.343" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="fill departing date" classname="united" time="1.302" assertions="0">
+    </testcase>
+  
+    <testcase name="choose cabin type" classname="united" time="1.105" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="search flight" classname="united" time="5.465" assertions="1">  <failure message="Testing if the page title contains [0;33m&#39;Flight Search Results | United Airlines&#39;[0m in 5000ms - expected [0;32m&#34;contains &#39;Flight Search Results | United Airlines&#39;&#34;[0m but got: [0;31m&#34;Access Denied&#34;[0m [0;90m(5116ms)[0m">    at Object.search flight (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/tests/united.js:89:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+    
+      <failure message="    at Object.search flight (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/tests/united.js:89:15)">    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="sort by Economy (Most Restricted)" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Collect Depart, Arrive, Stops, Duration, Price" classname="united">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

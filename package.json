@@ -1,0 +1,26 @@
+{
+  "name": "Nightwatch-docupace-Nikolai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test-e2e": "nightwatch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^81.0.0",
+    "jquery": "^3.2.0",
+    "nightwatch": "file:nightwatch"
+  },
+  "dependencies": {
+    "jsdom": "^16.2.2",
+    "nightwatch-xhr": "^0.4.7",
+    "webdriver-manager": "^12.1.7",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

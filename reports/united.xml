@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="united"
+    errors="1" failures="0" hostname="" id="" package="united" skipped="9"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+      [0;31m  Error: An error occurred while retrieving a new session: &#34;session not created: This version of ChromeDriver only supports Chrome version 79&#34;[0m
+[0;90m       at Selenium2Protocol.handleSessionCreateError (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/transport/transport.js:103:15)
+       at HttpRequest.&lt;anonymous&gt; (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/transport/transport.js:158:32)
+       at HttpResponse.&lt;anonymous&gt; (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/http/request.js:131:19)
+       at IncomingMessage.&lt;anonymous&gt; (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/http/response.js:60:14)
+       at endReadableNT (_stream_readable.js:1183:12)
+       at processTicksAndRejections (internal/process/task_queues.js:80:21)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Open united.com webpage" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="choose one-way option" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="fill origin field" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="fill destination field" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="fill departing date" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="choose cabin type" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="search flight" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="sort by Economy (Most Restricted)" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Collect Depart, Arrive, Stops, Duration, Price" classname="united">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

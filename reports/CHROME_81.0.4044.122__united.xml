@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="united"
+    errors="1" failures="0" hostname="" id="" package="united" skipped="8"
+    tests="1" time="8.413" timestamp="">
+  
+    <testcase name="Open united.com webpage" classname="united" time="8.413" assertions="0">
+      <error message="Error while trying to create HTTP request for &#34;/wd/hub/session/e215cf94347a3479be633843b42aefff/element/[object Object]/displayed&#34;: Request path contains unescaped characters" type="error">TypeError [ERR_UNESCAPED_CHARACTERS]: Request path contains unescaped characters
+    at new ClientRequest (_http_client.js:139:13)
+    at Object.request (http.js:44:10)
+    at HttpRequest.createHttpRequest (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/http/request.js:138:55)
+    at HttpRequest.send (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/http/request.js:217:29)
+    at /Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/transport/transport.js:193:15
+    at new Promise (&lt;anonymous&gt;)
+    at Selenium2Protocol.sendProtocolAction (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/transport/transport.js:191:12)
+    at Selenium2Protocol.runProtocolAction (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/transport/jsonwire.js:61:17)
+    at Object.isElementDisplayed (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/transport/actions.js:54:10)
+    at Selenium2Protocol.executeProtocolAction (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/transport/transport.js:239:48)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: Error while trying to create HTTP request for &#34;/wd/hub/session/e215cf94347a3479be633843b42aefff/element/[object Object]/displayed&#34;: Request path contains unescaped characters[0m
+[0;90m       at new ClientRequest (_http_client.js:139:13)
+       at Object.request (http.js:44:10)
+       at HttpRequest.createHttpRequest (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/http/request.js:138:55)
+       at HttpRequest.send (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/http/request.js:217:29)
+       at /Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/transport/transport.js:193:15
+       at new Promise (&lt;anonymous&gt;)
+       at Selenium2Protocol.sendProtocolAction (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/transport/transport.js:191:12)
+       at Selenium2Protocol.runProtocolAction (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/transport/jsonwire.js:61:17)
+       at Object.isElementDisplayed (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/transport/actions.js:54:10)
+       at Selenium2Protocol.executeProtocolAction (/Users/nikolajsvarlamovs/Documents/Projects/Nightwatch-docupace-Nikolai/nightwatch/lib/transport/transport.js:239:48)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="choose one-way option" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="fill origin field" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="fill destination field" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="fill departing date" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="choose cabin type" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="search flight" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="sort by Economy (Most Restricted)" classname="united">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Collect Depart, Arrive, Stops, Duration, Price" classname="united">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
