@@ -18,7 +18,7 @@
     "nightwatch": "file:nightwatch"
   },
   "dependencies": {
-    "jsdom": "^16.2.2",
+    "jsdom": "^16.5.0",
     "nightwatch-xhr": "^0.4.7",
     "webdriver-manager": "^12.1.7",
     "xmlhttprequest": "^1.8.0"
